@@ -1,0 +1,127 @@
+{
+    "discuz": [
+        {
+            "url": "/static/image/admincp/bg_repno.gif",
+            "md5": "403889213f03534a0651d7cfd6878b2c"
+        },
+        {
+            "url": "/",
+            "text": "<meta name=\"generator\" content=\"Discuz!",
+            "regexp": "<script src=\".*?logging\\.js"
+        }
+    ],
+    "phpwind": [
+        {
+            "url": "/res/js/dev/wind.js",
+            "md5": "7ad9ac3d647e00e12c615a06762430fe"
+        },
+        {
+            "url": "/",
+            "regexp": "<meta name=\"generator\" content=\"(phpwind|PHPWind)"
+        }
+    ],
+    "phpmyadmin": [
+        {
+            "url": "/",
+            "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"phpmyadmin.css.php",
+            "regexp": "<title>phpMyAdmin</title>"
+        }
+    ],
+    "wordpress": [
+        {
+            "url": "/",
+            "text": "<meta name=\"generator\" content=\"WordPress",
+            "regexp":"\"[^\"]+/wp-content/[^\"]+\""
+        }
+    ],
+    "zblog": [
+        {
+            "url": "/",
+            "regexp": "<link rel=\"stylesheet\" rev=\"stylesheet\" href=\".*zb_users"
+        }
+    ],
+    "phpcms": [
+        {
+            "url": "/",
+            "text": "<link href=\"templates/default/skins/default/phpcms.css\"",
+            "regexp": "Powered by (PHPCMS|Phpcms)"
+        },
+        {
+            "url": "/statics/images/icon/error.png",
+            "md5": "3c1bba4c2d2c0f9733ceff5f9f36baba"
+        }
+    ],
+    "dedecms": [
+        {
+            "url": "/",
+            "text": "DedeAjax(",
+            "regexp": "<script .* src=\"/include/dedeajax.*\">"
+        },
+      {
+            "url":"/data/admin/allowurl.txt    ",
+            "text":"dedecms"
+      }
+
+    ],
+    "startbbs": [
+        {
+            "url": "/",
+            "text": "class=\"startbbs",
+            "regexp": "Powered by <a href=\"http://www.startbbs.com\""
+        }
+    ],
+    "thinkphp": [
+        {
+            "url": "/index.php/chuhades",
+            "text": "ThinkPHP"
+        }
+    ],
+    "Drupal": [
+        {
+            "url": "/misc/drupal.js",
+            "text": "Drupal"
+        }
+    ],
+    "ecshop":[
+      {
+            "url":"/admin/help/zh_cn/database.xml",
+            "text":"ecshop"
+      }
+    ],
+  "espcms":[
+    {
+          "url":"/adminsoft/js/control.js",
+          "text":"espcms"
+    }
+  ],
+  "Joomla":[
+    {
+          "url":"/htaccess.txt",
+          "text":"Joomla"
+    }
+  ],
+  "kingcms":[
+    {
+          "url":"system/js/jquery.kc.js",
+          "text":"kingCMS"
+    }
+  ],
+  "qibocms":[
+    {
+          "url":"/admin/template/blend/set.htm",
+          "text":"qibosoft"
+    }
+  ],
+  "phpwind":[
+    {
+      "url":"",
+      "text":"phpwind"
+    }
+  ],
+  "siteserver":[
+    {
+      "url":"/robots.txt",
+      "text":"SiteServer"
+    }
+  ]
+}
