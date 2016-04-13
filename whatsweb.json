@@ -71,8 +71,8 @@
     ],
     "Drupal": [
         {
-            "url": "/misc/drupal.js",
-            "text": "Drupal"
+            "url": "/",
+            "header": "Drupal"
         }
     ],
     "ecshop":[
